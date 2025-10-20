@@ -33,7 +33,7 @@ class ProjectController extends Controller
         return response()->json($project->tasks);
     }
 
-    // Remove uma tarefa
+    // Remove um projeto
     public function destroy($id)
     {
         $project = Project::find($id);
